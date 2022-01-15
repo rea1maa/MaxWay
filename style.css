@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.collapse{
+    margin-left: 20px;
+}
+.fas{
+    font-size: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.card{
+    width: 15rem;
+}
+footer{
+    background-color: blueviolet;
+}
+#ul li{
+    color: white;
+}
+@media screen (max-width: 375px){
+    .card{
+        width: 15rem;
+    }
+    .not{
+        display: block;
+    }
+}
